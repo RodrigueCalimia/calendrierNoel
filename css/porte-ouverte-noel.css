@@ -1,0 +1,218 @@
+/* ------------ PARAMETRES ------------- */
+:root {
+    --text-color: #333333;
+    --dark-color:#eb949c;
+    --tonic-color: #FF00FF;
+    --light-color: white;
+    --masculin-color: #00A9B3;
+    --jeune-color: #B35900;
+    --maquillage-color: #FF0076;
+    
+    --br: 6px;
+  }
+
+/* ------------ BODY ------------- */
+body {
+    font-family: 'Bad Script', cursive;
+    font-family: 'Lora', serif;
+}
+.wrap{max-height: max-content;}
+/* ------------ HEADER ------------- */
+header{
+    background-color: var(--dark-color);
+    padding: 20px;
+    color: var(--light-color);
+    margin-bottom: 40px;
+}
+header h1{
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+header h1,
+header h2{
+  text-align: center;
+}
+/* ------------ MAIN ------------- */
+section{
+    display: flex;
+    flex-direction: column;
+}
+.section-sets-cadeau-pour-elle,
+.section-sets-cadeau-pour-lui,
+.section-sets-cadeau-pour-jeunes,
+.section-sets-cadeau-maquillage{
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.section-sets-cadeau-pour-elle{background-color: var(--tonic-color);}
+.section-sets-cadeau-pour-lui{background-color: var(--masculin-color);}
+.section-sets-cadeau-pour-jeunes{background-color: var(--jeune-color);}
+.section-sets-cadeau-maquillage{background-color: var(--maquillage-color);}
+
+/* application d'un effet sur les tuilles lors du survol */
+#cat-sets-cadeau-pour-elle:hover,
+#cat-sets-cadeau-pour-lui:hover,
+#cat-sets-cadeau-pour-jeunes:hover,
+#cat-sets-cadeau-maquillage:hover{opacity: 0.8;}
+
+/* configuration des tuilles */
+#cat-sets-cadeau-pour-elle, 
+#cat-sets-cadeau-pour-lui, 
+#cat-sets-cadeau-pour-jeunes, 
+#cat-sets-cadeau-maquillage{
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    background-size: contain;
+}
+/* application des images dans les tuilles */
+#cat-sets-cadeau-pour-elle{background-image: url(../img/po-noel/sets-cadeaux-pour-elle.png);}
+#cat-sets-cadeau-pour-lui{background-image: url(../img/po-noel/sets-cadeaux-pour-lui.png);}
+#cat-sets-cadeau-pour-jeunes{background-image: url(../img/po-noel/sets-cadeaux-pour-jeunes.png);}
+#cat-sets-cadeau-maquillage{background-image: url(../img/po-noel/sets-cadeaux-maquillage.png);}
+
+#contenu{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+  
+/* Add Animation */
+.modal-content {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+  
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(0)}
+}
+  
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(0)}
+}
+/* The Close Button */
+.close1,
+.close2,
+.close3,
+.close4{
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close1:hover,
+.close1:focus,
+.close2:hover,
+.close2:focus,
+.close3:hover,
+.close3:focus,
+.close4:hover,
+.close4:focus{
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cadeau-mains{background-image: url(../img/po-noel/cadeau-pour-les-mains.png);}
+.cadeau-briller{background-image: url(../img/po-noel/cadeau-pour-briller.png);}
+.cadeau-pieds{background-image: url(../img/po-noel/cadeau-pour-les-pieds.png);}
+.cadeau-senteur{background-image: url(../img/po-noel/cadeau-pour-senteur-fetes.png);}
+.cadeau-peau-douce-1{background-image: url(../img/po-noel/cadeau-pour-peau-douce-1.png);}
+.cadeau-peau-douce-2{background-image: url(../img/po-noel/cadeau-pour-peau-douce-2.png);}
+.cadeau-gout-abricot{background-image: url(../img/po-noel/cadeau-pour-gout-abricot.png);}
+.cadeau-peau-douce{background-image: url(../img/po-noel/cadeau-pour-peau-douce-2.png);}
+.cadeau-doux-decollete{background-image: url(../img/po-noel/cadeau-pour-decolete.png);}
+.cadeau-cocooning{background-image: url(../img/po-noel/cadeau-pour-cocooning.png);}
+.cadeau-sos-masque{background-image: url(../img/po-noel/cadeau-pour-masque.png);}
+.cadeau-luxe-exclu-1{background-image: url(../img/po-noel/cadeau-luxe-exclu-1.png);}
+.cadeau-luxe-exclu-2{background-image: url(../img/po-noel/cadeau-luxe-exclu-2.png);}
+.cadeau-jewel{background-image: url(../img/po-noel/cadeau-jewel.png);}
+.cadeau-apple{background-image: url(../img/po-noel/cadeau-pour-apple.png);}
+.cadeau-caviar{background-image: url(../img/po-noel/cadeau-caviar.png);}
+.cadeau-caviar-yeux{background-image: url(../img/po-noel/cadeau-caviar-yeux.png);}
+.cadeau-caviar-intensive{background-image: url(../img/po-noel/cadeau-caviar-intensive.png);}
+.cadeau-caviar-masque{background-image: url(../img/po-noel/cadeau-caviar-masque.png);}
+.cadeau-douceur-masculin{background-image: url(../img/po-noel/cadeau-douceur-masculin.svg);}
+.cadeau-fraicheur-masculine-1{background-image: url(../img/po-noel/cadeau-fraicheur-masculine-1.svg);}
+.cadeau-fraicheur-masculine-2{background-image: url(../img/po-noel/cadeau-fraicheur-masculine-2.svg);}
+.cadeau-cocooning-lui{background-image: url(../img/po-noel/cadeau-cocooning-lui.svg);}
+.cadeau-peau-douce-lui{background-image: url(../img/po-noel/cadeau-peau-douce-lui.svg);}
+.cadeau-sos-masque-lui{background-image: url(../img/po-noel/cadeau-sos-masque-lui.svg);}
+.cadeau-sos-masque-jeunes{background-image: url(../img/po-noel/cadeau-sos-masque-jeunes.svg);}
+.cadeau-belle-peau-1{background-image: url(../img/po-noel/cadeau-belle-peau-jeunes-1.svg);}
+.cadeau-belle-peau-2{background-image: url(../img/po-noel/cadeau-belle-peau-jeunes-2.svg);}
+.cadeau-fetes-en-couleur{background-image: url(../img/po-noel/cadeau-fetes-en-couleurs.svg);}
+.cadeau-juste-un-regard{background-image: url(../img/po-noel/cadeau-juste-un-regard.svg);}
+.cadeau-pour-briller{background-image: url(../img/po-noel/cadeau-pour-briller.svg);}
+
+.cadeau-mains,
+.cadeau-briller,
+.cadeau-pieds,
+.cadeau-senteur,
+.cadeau-peau-douce-1,
+.cadeau-peau-douce-2,
+.cadeau-gout-abricot,
+.cadeau-peau-douce,
+.cadeau-doux-decollete,
+.cadeau-cocooning,
+.cadeau-sos-masque,
+.cadeau-luxe-exclu-1,
+.cadeau-luxe-exclu-2,
+.cadeau-jewel,
+.cadeau-apple,
+.cadeau-caviar,
+.cadeau-caviar-yeux,
+.cadeau-caviar-intensive,
+.cadeau-caviar-masque,
+.cadeau-douceur-masculin,.cadeau-fraicheur-masculine-1,
+.cadeau-fraicheur-masculine-2,
+.cadeau-cocooning-lui,
+.cadeau-peau-douce-lui,
+.cadeau-sos-masque-lui,
+.cadeau-sos-masque-jeunes,
+.cadeau-belle-peau-1,
+.cadeau-belle-peau-2,
+.cadeau-fetes-en-couleur,
+.cadeau-juste-un-regard,
+.cadeau-pour-briller{
+    width: 420px;
+    height: 420px;
+}
+
+/* ------------ FOOTER ------------- */
+footer{
+    margin-top: 40px;
+    padding: 20px;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+footer p{
+    text-align: center;
+    padding: 10px;
+}

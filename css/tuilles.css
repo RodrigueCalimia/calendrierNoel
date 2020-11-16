@@ -1,0 +1,394 @@
+/* ------------ PARAMETRES ------------- */
+:root {
+  --text-color: #333333;
+  --dark-color:#eb949c;
+  --tonic-color: #FF00FF;
+  --light-color: white;
+}
+
+/* ------------ BODY ------------- */
+body {
+    font-family: 'Bad Script', cursive;
+    font-family: 'Lora', serif;
+}
+
+/* ------------ HEADER ------------- */
+header{
+    background-color: var(--dark-color);
+    padding: 20px;
+    color: var(--light-color);
+    margin-bottom: 40px;
+}
+header h1{
+    text-transform: uppercase;
+}
+header h1,
+header h2{
+  text-align: center;
+}
+
+/* ------------ MAIN ------------- */
+section{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+}
+
+/* configuration des tuilles */
+#container1, 
+#container2, 
+#container3, 
+#container4, 
+#container5, 
+#container6, 
+#container7, 
+#container8, 
+#container9, 
+#container10, 
+#container11, 
+#container12, 
+#container13, 
+#container14, 
+#container15, 
+#container16, 
+#container17, 
+#container18, 
+#container19, 
+#container20, 
+#container21, 
+#container22, 
+#container23, 
+#container24{
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height:200px; /* centrage vertical */
+    color: white;
+    font-weight: 900px;
+    font-size: 100px;
+    background-size: cover;
+}
+
+/* application des images dans les tuilles */
+#container1{background-image: url(../img/calendrierAvent/noel-1.jpg);}
+#container2{background-image: url(../img/calendrierAvent/noel-2.jpg);}
+#container3{background-image: url(../img/calendrierAvent/noel-3.jpg);}
+#container4{background-image: url(../img/calendrierAvent/noel-4.jpg);}
+#container5{background-image: url(../img/calendrierAvent/noel-5.jpg);}
+#container6{background-image: url(../img/calendrierAvent/noel-6.jpg);}
+#container7{background-image: url(../img/calendrierAvent/noel-7.jpg);}
+#container8{background-image: url(../img/calendrierAvent/noel-8.jpg);}
+#container9{background-image: url(../img/calendrierAvent/noel-9.jpg);}
+#container10{background-image: url(../img/calendrierAvent/noel-10.jpg);}
+#container11{background-image: url(../img/calendrierAvent/noel-11.jpg);}
+#container12{background-image: url(../img/calendrierAvent/noel-12.jpg);}
+#container13{background-image: url(../img/calendrierAvent/noel-13.jpg);}
+#container14{background-image: url(../img/calendrierAvent/noel-14.jpg);}
+#container15{background-image: url(../img/calendrierAvent/noel-15.jpg);}
+#container16{background-image: url(../img/calendrierAvent/noel-16.jpg);}
+#container17{background-image: url(../img/calendrierAvent/noel-17.jpg);}
+#container18{background-image: url(../img/calendrierAvent/noel-18.jpg);}
+#container19{background-image: url(../img/calendrierAvent/noel-19.jpg);}
+#container20{background-image: url(../img/calendrierAvent/noel-20.jpg);}
+#container21{background-image: url(../img/calendrierAvent/noel-21.jpg);}
+#container22{background-image: url(../img/calendrierAvent/noel-22.jpg);}
+#container23{background-image: url(../img/calendrierAvent/noel-23.jpg);}
+#container24{background-image: url(../img/calendrierAvent/noel-24.jpg);}
+
+/* application d'un effet sur les tuilles lors du survol */
+#container1:hover,
+#container2:hover,
+#container3:hover,
+#container4:hover,
+#container5:hover,
+#container6:hover,
+#container7:hover,
+#container8:hover,
+#container9:hover,
+#container10:hover,
+#container11:hover,
+#container12:hover,
+#container13:hover,
+#container14:hover,
+#container15:hover,
+#container16:hover,
+#container17:hover,
+#container18:hover,
+#container19:hover,
+#container20:hover,
+#container21:hover,
+#container22:hover,
+#container23:hover,
+#container24:hover{opacity: 0.7;}
+
+/* -------------- POP-UP ----------------- */
+/* Application de l'image à la pop-up patienter */
+#patienter{background-image: url(../img/calendrierAvent/patienter-1.svg);}
+
+/* Affichage et centrage de l'offre */
+#offre1Show{background-image: url(../img/calendrierAvent/jour-1.svg);}
+#offre2Show{background-image: url(../img/calendrierAvent/jour-2.svg);}
+#offre3Show{background-image: url(../img/calendrierAvent/jour-3.svg);}
+#offre4Show{background-image: url(../img/calendrierAvent/jour-4.svg);}
+#offre5Show{background-image: url(../img/calendrierAvent/jour-5.svg);}
+#offre6Show{background-image: url(../img/calendrierAvent/jour-6.svg);}
+#offre7Show{background-image: url(../img/calendrierAvent/jour-7.svg);}
+#offre8Show{background-image: url(../img/calendrierAvent/jour-8.svg);}
+#offre9Show{background-image: url(../img/calendrierAvent/jour-9.svg);}
+#offre10Show{background-image: url(../img/calendrierAvent/jour-10.svg);}
+#offre11Show{background-image: url(../img/calendrierAvent/jour-11.svg);}
+#offre12Show{background-image: url(../img/calendrierAvent/jour-12.svg);}
+#offre13Show{background-image: url(../img/calendrierAvent/jour-13.svg);}
+#offre14Show{background-image: url(../img/calendrierAvent/jour-14.svg);}
+#offre15Show{background-image: url(../img/calendrierAvent/jour-15.svg);}
+#offre16Show{background-image: url(../img/calendrierAvent/jour-16.svg);}
+#offre17Show{background-image: url(../img/calendrierAvent/jour-17.svg);}
+#offre18Show{background-image: url(../img/calendrierAvent/jour-18.svg);}
+#offre19Show{background-image: url(../img/calendrierAvent/jour-19.svg);}
+#offre20Show{background-image: url(../img/calendrierAvent/jour-20.svg);}
+#offre21Show{background-image: url(../img/calendrierAvent/jour-21.svg);}
+#offre22Show{background-image: url(../img/calendrierAvent/jour-22.svg);}
+#offre23Show{background-image: url(../img/calendrierAvent/jour-23.svg);}
+#offre24Show{background-image: url(../img/calendrierAvent/jour-24.svg);}
+
+#offre1Show,
+#offre2Show,
+#offre3Show,
+#offre4Show,
+#offre5Show,
+#offre6Show,
+#offre7Show,
+#offre8Show,
+#offre9Show,
+#offre10Show,
+#offre11Show,
+#offre12Show,
+#offre13Show,
+#offre14Show,
+#offre15Show,
+#offre16Show,
+#offre17Show,
+#offre18Show,
+#offre19Show,
+#offre20Show,
+#offre21Show,
+#offre22Show,
+#offre23Show,
+#offre24Show,
+#patienter{
+  display: block;
+  /*text-align: center;
+  background-position: center;*/
+  background-repeat: no-repeat;
+}
+
+/* Masquage de l'offre */
+#offre1Hide,
+#offre2Hide,
+#offre3Hide,
+#offre4Hide,
+#offre5Hide,
+#offre6Hide,
+#offre7Hide,
+#offre8Hide,
+#offre9Hide,
+#offre10Hide,
+#offre11Hide,
+#offre12Hide,
+#offre13Hide,
+#offre14Hide,
+#offre15Hide,
+#offre16Hide,
+#offre17Hide,
+#offre18Hide,
+#offre19Hide,
+#offre20Hide,
+#offre21Hide,
+#offre22Hide,
+#offre23Hide,
+#offre24Hide{display: none;}
+
+/* Positionnement des liens */
+.liens{
+  padding: 5px;
+  padding-right: 20px;
+}
+.lien-2{
+  display: inline-flex;
+  margin-top: 200px;
+  margin-left: 65px;
+}
+.lien-4{
+  margin-top: 270px;
+  margin-left: 255px;
+}
+.lien-6{
+  margin-top: 55px;
+  margin-left: 175px;
+}
+.lien-8{
+  margin-top: 200px;
+  margin-left: 65px;
+}
+.lien-9{
+  margin-top: 210px;
+  margin-left: 273px;
+}
+.lien-10{
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 160px;
+  margin-left: 295px;
+}
+.lien-11{
+  margin-top: 210px;
+  margin-left: 140px;
+}
+.lien-13{
+  margin-top: 160px;
+  margin-left: 225px;
+}
+.lien-15{
+  margin-top: 295px;
+  margin-left: 165px;
+}
+.lien-23{
+  margin-top: 100px;
+  margin-left: 122px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Add Animation */
+.modal-content {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(0)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(0)}
+}
+
+/* The Close Button */
+.close1,
+.close2,
+.close3,
+.close4,
+.close5,
+.close6,
+.close7,
+.close8,
+.close9,
+.close10,
+.close11,
+.close12,
+.close13,
+.close14,
+.close15,
+.close16,
+.close17,
+.close18,
+.close19,
+.close20,
+.close21,
+.close22,
+.close23,
+.close24{
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close1:hover,
+.close1:focus,
+.close2:hover,
+.close2:focus,
+.close3:hover,
+.close3:focus,
+.close4:hover,
+.close4:focus,
+.close5:hover,
+.close5:focus,
+.close6:hover,
+.close6:focus,
+.close7:hover,
+.close7:focus,
+.close8:hover,
+.close8:focus,
+.close9:hover,
+.close9:focus,
+.close10:hover,
+.close10:focus,
+.close11:hover,
+.close11:focus,
+.close12:hover,
+.close12:focus,
+.close13:hover,
+.close13:focus,
+.close14:hover,
+.close14:focus,
+.close15:hover,
+.close15:focus,
+.close16:hover,
+.close16:focus,
+.close17:hover,
+.close17:focus,
+.close18:hover,
+.close18:focus,
+.close19:hover,
+.close19:focus,
+.close20:hover,
+.close20:focus,
+.close21:hover,
+.close21:focus,
+.close22:hover,
+.close22:focus,
+.close23:hover,
+.close23:focus,
+.close24:hover,
+.close24:focus{
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ------------ FOOTER ------------- */
+footer{
+    margin-top: 40px;
+    padding: 20px;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+footer p{
+    text-align: center;
+    padding: 10px;
+}
