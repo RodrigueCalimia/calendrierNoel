@@ -101,7 +101,7 @@ Template Name: Calendrier
         <div class="modal-content">
             <span class="close6">&times;</span> 
             <div class="lien-6">
-                Découvrez nos <a href="https://les5produitsphares.now.site/home" target="_blank">Produits Phares</a>.
+                Découvrez nos Produits Phares <a href="https://les5produitsphares.now.site/home" target="_blank">en vidéo</a>.
             </div>
         </div>
     </div>
@@ -115,7 +115,7 @@ Template Name: Calendrier
         <div class="modal-content">
             <span class="close8">&times;</span> 
             <div class="lien-8">
-                Découvrez en vidéo notre <a href="https://les5produitsphares.now.site/home" target="_blank">Essence Repear</a>.
+                Découvrez en vidéo notre <a href="https://vimeo.com/182663200" target="_blank">Essence Repear</a>.
             </div>
         </div>
     </div>
@@ -124,7 +124,7 @@ Template Name: Calendrier
         <div class="modal-content">
             <span class="close9">&times;</span>
             <div class="lien-9">
-                Découvrez ces <a href="https://les5produitsphares.now.site/home" target="_blank">vertus</a>.
+                Découvrez ces <a href="https://reishi.now.site/home" target="_blank">vertus</a>.
             </div>
         </div>
     </div>
@@ -137,10 +137,10 @@ Template Name: Calendrier
                     <a href="https://vimeo.com/309844908" target="_blank">Tuto « The girl »</a>
                 </div>
                 <div class="liens">
-                    <a href="https://vimeo.com/309845452" target="_blank">Tuto « the lady »</a>
+                    <a href="https://vimeo.com/309845973" target="_blank">Tuto « The woman »</a>
                 </div>
                 <div class="liens">
-                    <a href="https://vimeo.com/309845973" target="_blank">Tuto « the woman »</a>
+                    <a href="https://vimeo.com/309845452" target="_blank">Tuto « The lady »</a>
                 </div>
             </div>
         </div>

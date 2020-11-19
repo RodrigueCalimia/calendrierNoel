@@ -28,7 +28,7 @@
         <rect id="cadre-offre-2" data-name="cadre-offre" width="503" height="182" transform="translate(156 24)" fill="#fff"/>
       </g>
       <text id="St_Nicolas" data-name="St Nicolas" transform="translate(149 200.609)" fill="#f0f" font-size="28" font-family="AmericanTypewriter-Bold, American Typewriter" font-weight="700"><tspan x="140.217" y="27">S</tspan><tspan y="27" font-size="16.332" baseline-shift="9.332399639036119">T </tspan><tspan y="27">NICOLAS</tspan></text>
-      <text id="description" transform="translate(141 257.609)" fill="#646464" font-size="18" font-family="Athelas-Regular, Athelas" letter-spacing="0.005em"><tspan x="0" y="16">Aujourd’hui c’est la St Nicolas, Nous vous proposons de </tspan><tspan x="0" y="40">refaire le point avec nos produits phares pour toute la famille.</tspan></text>
+      <text id="description" transform="translate(141 257.609)" fill="#646464" font-size="18" font-family="Athelas-Regular, Athelas" letter-spacing="0.005em"><tspan x="0" y="16">Aujourd’hui c’est la St Nicolas. Nous vous proposons de </tspan><tspan x="0" y="40">refaire le point avec nos produits phares pour toute la famille.</tspan></text>
     </g>
     <g transform="matrix(1, 0, 0, 1, 53, 14)" filter="url(#img-produit)">
       <rect id="img-produit-2" data-name="img-produit" width="560" height="471" transform="translate(307 189)" fill="url(#pattern-2)"/>
