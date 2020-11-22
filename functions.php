@@ -9,7 +9,7 @@
             // chargement du script
             wp_enqueue_script(
                 'jsStenie', 
-                get_template_directory_uri() . '/js/script.js', 
+                get_template_directory_uri() . '/js/calendrier-avent-stenie.js', 
                 array( 'jquery' ), 
                 '1.0', 
                 true
