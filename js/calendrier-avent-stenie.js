@@ -83,7 +83,7 @@ var lAnnee    = laDate.getFullYear();
 
 div1.onclick = function(){
   modal1.style.display = "block";
-  if (leJour >= 9 && leMois == 11 && lAnnee == 2020) {
+  if (leJour >= 1 && leMois == 12 && lAnnee == 2020) {
     modal1.id = "offre1Show";
   } else {
     modal1.id = "patienter";
@@ -91,7 +91,7 @@ div1.onclick = function(){
 }
 div2.onclick = function(){
   modal2.style.display = "block";
-  if (leJour >= 9 && leMois == 11 && lAnnee == 2020) {
+  if (leJour >= 2 && leMois == 12 && lAnnee == 2020) {
     modal2.id = "offre2Show";
   } else {
     modal2.id = "patienter";
@@ -99,7 +99,7 @@ div2.onclick = function(){
 }
 div3.onclick = function(){
   modal3.style.display = "block";
-  if (leJour >= 8 && leMois == 11 && lAnnee == 2020) {
+  if (leJour >= 3 && leMois == 12 && lAnnee == 2020) {
     modal3.id = "offre3Show";
   } else {
     modal3.id = "patienter";
@@ -107,7 +107,7 @@ div3.onclick = function(){
 }
 div4.onclick = function(){
   modal4.style.display = "block";
-  if (leJour >= 8 && leMois == 11 && lAnnee == 2020) {
+  if (leJour >= 4 && leMois == 12 && lAnnee == 2020) {
     modal4.id = "offre4Show";
   } else {
     modal4.id = "patienter";
@@ -115,7 +115,7 @@ div4.onclick = function(){
 }
 div5.onclick = function(){
   modal5.style.display = "block";
-  if (leJour >= 8 && leMois == 11 && lAnnee == 2020) {
+  if (leJour >= 5 && leMois == 12 && lAnnee == 2020) {
     modal5.id = "offre5Show";
   } else {
     modal5.id = "patienter";
@@ -123,7 +123,7 @@ div5.onclick = function(){
 }
 div6.onclick = function(){
   modal6.style.display = "block";
-  if (leJour >= 8 && leMois == 11 && lAnnee == 2020) {
+  if (leJour >= 6 && leMois == 12 && lAnnee == 2020) {
     modal6.id = "offre6Show";
   } else {
     modal6.id = "patienter";
@@ -131,7 +131,7 @@ div6.onclick = function(){
 }
 div7.onclick = function(){
   modal7.style.display = "block";
-  if (leJour >= 8 && leMois == 11 && lAnnee == 2020) {
+  if (leJour >= 7 && leMois == 12 && lAnnee == 2020) {
     modal7.id = "offre7Show";
   } else {
     modal7.id = "patienter";
@@ -139,7 +139,7 @@ div7.onclick = function(){
 }
 div8.onclick = function(){
   modal8.style.display = "block";
-  if (leJour >= 8 && leMois == 11 && lAnnee == 2020) {
+  if (leJour >= 8 && leMois == 12 && lAnnee == 2020) {
     modal8.id = "offre8Show";
   } else {
     modal8.id = "patienter";
@@ -147,7 +147,7 @@ div8.onclick = function(){
 }
 div9.onclick = function(){
   modal9.style.display = "block";
-  if (leJour >= 8 && leMois == 11 && lAnnee == 2020) {
+  if (leJour >= 9 && leMois == 12 && lAnnee == 2020) {
     modal9.id = "offre9Show";
   } else {
     modal9.id = "patienter";
@@ -155,7 +155,7 @@ div9.onclick = function(){
 }
 div10.onclick = function(){
   modal10.style.display = "block";
-  if (leJour >= 8 && leMois == 11 && lAnnee == 2020) {
+  if (leJour >= 10 && leMois == 12 && lAnnee == 2020) {
     modal10.id = "offre10Show";
   } else {
     modal10.id = "patienter";
@@ -163,7 +163,7 @@ div10.onclick = function(){
 }
 div11.onclick = function(){
   modal11.style.display = "block";
-  if (leJour >= 8 && leMois == 11 && lAnnee == 2020) {
+  if (leJour >= 11 && leMois == 12 && lAnnee == 2020) {
     modal11.id = "offre11Show";
   } else {
     modal11.id = "patienter";
@@ -171,7 +171,7 @@ div11.onclick = function(){
 }
 div12.onclick = function(){
   modal12.style.display = "block";
-  if (leJour >= 8 && leMois == 11 && lAnnee == 2020) {
+  if (leJour >= 12 && leMois == 12 && lAnnee == 2020) {
     modal12.id = "offre12Show";
   } else {
     modal12.id = "patienter";
@@ -179,7 +179,7 @@ div12.onclick = function(){
 }
 div13.onclick = function(){
   modal13.style.display = "block";
-  if (leJour >= 8 && leMois == 11 && lAnnee == 2020) {
+  if (leJour >= 13 && leMois == 12 && lAnnee == 2020) {
     modal13.id = "offre13Show";
   } else {
     modal13.id = "patienter";
@@ -187,7 +187,7 @@ div13.onclick = function(){
 }
 div14.onclick = function(){
   modal14.style.display = "block";
-  if (leJour >= 8 && leMois == 11 && lAnnee == 2020) {
+  if (leJour >= 14 && leMois == 12 && lAnnee == 2020) {
     modal14.id = "offre14Show";
   } else {
     modal14.id = "patienter";
@@ -195,7 +195,7 @@ div14.onclick = function(){
 }
 div15.onclick = function(){
   modal15.style.display = "block";
-  if (leJour >= 8 && leMois == 11 && lAnnee == 2020) {
+  if (leJour >= 15 && leMois == 12 && lAnnee == 2020) {
     modal15.id = "offre15Show";
   } else {
     modal15.id = "patienter";
@@ -203,7 +203,7 @@ div15.onclick = function(){
 }
 div16.onclick = function(){
   modal16.style.display = "block";
-  if (leJour >= 8 && leMois == 11 && lAnnee == 2020) {
+  if (leJour >= 16 && leMois == 12 && lAnnee == 2020) {
     modal16.id = "offre16Show";
   } else {
     modal16.id = "patienter";
@@ -211,7 +211,7 @@ div16.onclick = function(){
 }
 div17.onclick = function(){
   modal17.style.display = "block";
-  if (leJour >= 8 && leMois == 11 && lAnnee == 2020) {
+  if (leJour >= 17 && leMois == 12 && lAnnee == 2020) {
     modal17.id = "offre17Show";
   } else {
     modal17.id = "patienter";
@@ -219,7 +219,7 @@ div17.onclick = function(){
 }
 div18.onclick = function(){
   modal18.style.display = "block";
-  if (leJour >= 8 && leMois == 11 && lAnnee == 2020) {
+  if (leJour >= 18 && leMois == 12 && lAnnee == 2020) {
     modal18.id = "offre18Show";
   } else {
     modal18.id = "patienter";
@@ -227,7 +227,7 @@ div18.onclick = function(){
 }
 div19.onclick = function(){
   modal19.style.display = "block";
-  if (leJour >= 8 && leMois == 11 && lAnnee == 2020) {
+  if (leJour >= 19 && leMois == 12 && lAnnee == 2020) {
     modal19.id = "offre19Show";
   } else {
     modal19.id = "patienter";
@@ -235,7 +235,7 @@ div19.onclick = function(){
 }
 div20.onclick = function(){
   modal20.style.display = "block";
-  if (leJour >= 8 && leMois == 11 && lAnnee == 2020) {
+  if (leJour >= 20 && leMois == 12 && lAnnee == 2020) {
     modal20.id = "offre20Show";
   } else {
     modal20.id = "patienter";
@@ -243,7 +243,7 @@ div20.onclick = function(){
 }
 div21.onclick = function(){
   modal21.style.display = "block";
-  if (leJour >= 8 && leMois == 11 && lAnnee == 2020) {
+  if (leJour >= 21 && leMois == 12 && lAnnee == 2020) {
     modal21.id = "offre21Show";
   } else {
     modal21.id = "patienter";
@@ -251,7 +251,7 @@ div21.onclick = function(){
 }
 div22.onclick = function(){
   modal22.style.display = "block";
-  if (leJour >= 8 && leMois == 11 && lAnnee == 2020) {
+  if (leJour >= 22 && leMois == 12 && lAnnee == 2020) {
     modal22.id = "offre22Show";
   } else {
     modal22.id = "patienter";
@@ -259,7 +259,7 @@ div22.onclick = function(){
 }
 div23.onclick = function(){
   modal23.style.display = "block";
-  if (leJour >= 8 && leMois == 11 && lAnnee == 2020) {
+  if (leJour >= 23 && leMois == 12 && lAnnee == 2020) {
     modal23.id = "offre23Show";
   } else {
     modal23.id = "patienter";
@@ -267,7 +267,7 @@ div23.onclick = function(){
 }
 div24.onclick = function(){
   modal24.style.display = "block";
-  if (leJour >= 8 && leMois == 11 && lAnnee == 2020) {
+  if (leJour >= 24 && leMois == 12 && lAnnee == 2020) {
     modal24.id = "offre24Show";
   } else {
     modal24.id = "patienter";
